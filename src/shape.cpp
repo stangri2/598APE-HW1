@@ -1,4 +1,5 @@
 #include "shape.h"
+#include <algorithm>
 
 Shape::Shape(const Vector &c, Texture* t, double ya, double pi, double ro): center(c), texture(t), yaw(ya), pitch(pi), roll(ro){
 };
@@ -36,36 +37,22 @@ typedef struct {
    Shape* shape;
 } TimeAndShape;
 
-void insertionSort(TimeAndShape *arr, int n) {
-    for (int i = 1; i < n; ++i) {
-        TimeAndShape key = arr[i];
-        int j = i - 1;
-        while (j >= 0 && arr[j].time > key.time) {
-            arr[j + 1] = arr[j];
-            j = j - 1;
-        }
-        arr[j + 1] = key;
-    }
-}
-
 void calcColor(unsigned char* toFill,Autonoma* c, Ray ray, unsigned int depth){
    ShapeNode* t = c->listStart;
-   TimeAndShape *times = (TimeAndShape*)malloc(0);
    size_t seen = 0;
+   TimeAndShape minTimeAndShape = {inf, NULL};
+
    while(t!=NULL){
       double time = t->data->getIntersection(ray);
-
-      TimeAndShape *times2 = (TimeAndShape*)malloc(sizeof(TimeAndShape)*(seen + 1));
-      for (int i=0; i<seen; i++)
-         times2[i] = times[i];
-      times2[seen] = (TimeAndShape){ time, t->data };
-      free(times);
-      times = times2;
+      if (time < minTimeAndShape.time) {
+         minTimeAndShape = (TimeAndShape){ time, t->data };
+      }
+      
       seen ++;
       t = t->next;
    }
-   insertionSort(times, seen);
-   if (seen == 0 || times[0].time == inf) {
+   
+   if (seen == 0 || minTimeAndShape.time == inf) {
       double opacity, reflection, ambient;
       Vector temp = ray.vector.normalize();
       const double x = temp.x;
@@ -76,9 +63,8 @@ void calcColor(unsigned char* toFill,Autonoma* c, Ray ray, unsigned int depth){
       return;
    }
 
-   double curTime = times[0].time;
-   Shape* curShape = times[0].shape;
-   free(times);
+   double curTime = minTimeAndShape.time;
+   Shape* curShape = minTimeAndShape.shape;
 
    Vector intersect = curTime*ray.vector+ray.point;
    double opacity, reflection, ambient;

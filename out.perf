@@ -1,0 +1,1547 @@
+main.exe   18112  3757.816416:   10101010 task-clock:ppp: 
+	    58fea88047e8 insertionSort(TimeAndShape*, int)+0xae (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.826517:   10101010 task-clock:ppp: 
+	    58fea880481d insertionSort(TimeAndShape*, int)+0xe3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.836617:   10101010 task-clock:ppp: 
+	    58fea8807aa0 Vector::operator*(double)+0x64 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029c0 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1b8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.846733:   10101010 task-clock:ppp: 
+	    58fea88038d2 Plane::getIntersection(Ray)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.856831:   10101010 task-clock:ppp: 
+	    58fea88081b9 solveScalers(Vector, Vector, Vector, Vector)+0x275 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.866932:   10101010 task-clock:ppp: 
+	    58fea8804981 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x139 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.877032:   10101010 task-clock:ppp: 
+	    7e45dbaad66b malloc+0x1b (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.887134:   10101010 task-clock:ppp: 
+	    58fea880093d Box::getIntersection(Ray)+0x2cd (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.897235:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.907336:   10101010 task-clock:ppp: 
+	    58fea8800992 Box::getLightIntersection(Ray, double*)+0x4e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.917437:   10101010 task-clock:ppp: 
+	    58fea8802c20 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x418 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.927538:   10101010 task-clock:ppp: 
+	    58fea8804981 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x139 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.937639:   10101010 task-clock:ppp: 
+	    58fea8808009 solveScalers(Vector, Vector, Vector, Vector)+0xc5 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.947741:   10101010 task-clock:ppp: 
+	    58fea880497b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x133 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.957841:   10101010 task-clock:ppp: 
+	    58fea880476b insertionSort(TimeAndShape*, int)+0x31 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.967943:   10101010 task-clock:ppp: 
+	    58fea88080c5 solveScalers(Vector, Vector, Vector, Vector)+0x181 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.978044:   10101010 task-clock:ppp: 
+	    58fea880399d Plane::getIntersection(Ray)+0xcb (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.988145:   10101010 task-clock:ppp: 
+	    58fea8800a33 Box::getLightIntersection(Ray, double*)+0xef (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3757.998246:   10101010 task-clock:ppp: 
+	    58fea8804950 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x108 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.008347:   10101010 task-clock:ppp: 
+	    58fea8807f62 solveScalers(Vector, Vector, Vector, Vector)+0x1e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.018448:   10101010 task-clock:ppp: 
+	    58fea88049cb calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x183 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.028549:   10101010 task-clock:ppp: 
+	    58fea8807f86 solveScalers(Vector, Vector, Vector, Vector)+0x42 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.038651:   10101010 task-clock:ppp: 
+	    58fea88075f9 Vector::Vector(double, double, double)+0x11 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880070a Box::getIntersection(Ray)+0x9a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.048751:   10101010 task-clock:ppp: 
+	    58fea8804963 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x11b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.058852:   10101010 task-clock:ppp: 
+	    58fea8800a47 Box::getLightIntersection(Ray, double*)+0x103 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.068953:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.079055:   10101010 task-clock:ppp: 
+	    58fea880497b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x133 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.089156:   10101010 task-clock:ppp: 
+	    58fea880087b Box::getIntersection(Ray)+0x20b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.099257:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.109358:   10101010 task-clock:ppp: 
+	    58fea88079d2 Vector::operator+(Vector)+0x8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800739 Box::getIntersection(Ray)+0xc9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.119459:   10101010 task-clock:ppp: 
+	    58fea8804901 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.129560:   10101010 task-clock:ppp: 
+	    58fea880827b Ray::Ray(Vector const&, Vector const&)+0x3d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88052cc calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xa84 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.139661:   10101010 task-clock:ppp: 
+	    58fea88079d2 Vector::operator+(Vector)+0x8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.149762:   10101010 task-clock:ppp: 
+	    58fea8800750 Box::getIntersection(Ray)+0xe0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.159864:   10101010 task-clock:ppp: 
+	    58fea8807a24 Vector::operator+(Vector)+0x5a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800739 Box::getIntersection(Ray)+0xc9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.169992:   10101010 task-clock:ppp: 
+	    58fea8803a9f Plane::getLightIntersection(Ray, double*)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.180093:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.190194:   10101010 task-clock:ppp: 
+	    58fea8807610 Vector::Vector(double, double, double)+0x28 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800a88 Box::getLightIntersection(Ray, double*)+0x144 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.200295:   10101010 task-clock:ppp: 
+	    58fea88029fc getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f4 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.210396:   10101010 task-clock:ppp: 
+	    58fea88079a9 Vector::operator-(Vector)+0x51 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800776 Box::getIntersection(Ray)+0x106 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.220498:   10101010 task-clock:ppp: 
+	    7e45dbaad7df malloc+0x18f (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.230598:   10101010 task-clock:ppp: 
+	    58fea8804992 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.240699:   10101010 task-clock:ppp: 
+	    58fea88049f4 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1ac (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.250801:   10101010 task-clock:ppp: 
+	    58fea8807fa5 solveScalers(Vector, Vector, Vector, Vector)+0x61 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.260902:   10101010 task-clock:ppp: 
+	    58fea880800e solveScalers(Vector, Vector, Vector, Vector)+0xca (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.271003:   10101010 task-clock:ppp: 
+	    58fea88080b3 solveScalers(Vector, Vector, Vector, Vector)+0x16f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.281104:   10101010 task-clock:ppp: 
+	    58fea8807de2 Vector::mag2()+0x20 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8805bc1 Sphere::getIntersection(Ray)+0xf5 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.291205:   10101010 task-clock:ppp: 
+	    58fea880826c Ray::Ray(Vector const&, Vector const&)+0x2e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a19 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x211 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.301306:   10101010 task-clock:ppp: 
+	    58fea8804994 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.311408:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.321509:   10101010 task-clock:ppp: 
+	    58fea8808087 solveScalers(Vector, Vector, Vector, Vector)+0x143 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.331610:   10101010 task-clock:ppp: 
+	    58fea8807986 Vector::operator-(Vector)+0x2e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800afa Box::getLightIntersection(Ray, double*)+0x1b6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.341711:   10101010 task-clock:ppp: 
+	    58fea8807975 Vector::operator-(Vector)+0x1d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800776 Box::getIntersection(Ray)+0x106 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.351812:   10101010 task-clock:ppp: 
+	    58fea880399f Plane::getIntersection(Ray)+0xcd (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.361912:   10101010 task-clock:ppp: 
+	    58fea880476b insertionSort(TimeAndShape*, int)+0x31 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.372013:   10101010 task-clock:ppp: 
+	    58fea8804994 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.382114:   10101010 task-clock:ppp: 
+	    7e45dbaad660 malloc+0x10 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.392216:   10101010 task-clock:ppp: 
+	    7e45dbd3f160 fmod@@GLIBC_2.38+0x40 (/usr/lib/x86_64-linux-gnu/libm.so.6)
+	    58fea8804cd8 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x490 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.402317:   10101010 task-clock:ppp: 
+	    7e45dbaab170 _int_free+0x0 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.412418:   10101010 task-clock:ppp: 
+	    58fea8804778 insertionSort(TimeAndShape*, int)+0x3e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.422519:   10101010 task-clock:ppp: 
+	    58fea8808150 solveScalers(Vector, Vector, Vector, Vector)+0x20c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.432620:   10101010 task-clock:ppp: 
+	    58fea88048f1 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xa9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.442722:   10101010 task-clock:ppp: 
+	    58fea8808150 solveScalers(Vector, Vector, Vector, Vector)+0x20c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.452822:   10101010 task-clock:ppp: 
+	    58fea8807607 Vector::Vector(double, double, double)+0x1f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880070a Box::getIntersection(Ray)+0x9a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.462924:   10101010 task-clock:ppp: 
+	    58fea88006eb Box::getIntersection(Ray)+0x7b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.473025:   10101010 task-clock:ppp: 
+	    7e45dbaab369 _int_free+0x1f9 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    7e45dbaaddae cfree@GLIBC_2.2.5+0x7e (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.483126:   10101010 task-clock:ppp: 
+	    58fea8800750 Box::getIntersection(Ray)+0xe0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.493227:   10101010 task-clock:ppp: 
+	    58fea880495d calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x115 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.503328:   10101010 task-clock:ppp: 
+	    58fea8807ecb Vector::dot(Vector)+0x49 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88009b0 Box::getLightIntersection(Ray, double*)+0x6c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.513429:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.523530:   10101010 task-clock:ppp: 
+	    58fea88080ea solveScalers(Vector, Vector, Vector, Vector)+0x1a6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.533631:   10101010 task-clock:ppp: 
+	    58fea8804786 insertionSort(TimeAndShape*, int)+0x4c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.543733:   10101010 task-clock:ppp: 
+	    58fea88006ef Box::getIntersection(Ray)+0x7f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.553833:   10101010 task-clock:ppp: 
+	    58fea88081dc solveScalers(Vector, Vector, Vector, Vector)+0x298 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.563934:   10101010 task-clock:ppp: 
+	    58fea8800a0f Box::getLightIntersection(Ray, double*)+0xcb (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.574035:   10101010 task-clock:ppp: 
+	    58fea8808256 Ray::Ray(Vector const&, Vector const&)+0x18 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a19 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x211 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.584137:   10101010 task-clock:ppp: 
+	    58fea8807ea3 Vector::dot(Vector)+0x21 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880395c Plane::getIntersection(Ray)+0x8a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.594238:   10101010 task-clock:ppp: 
+	    58fea880823e Ray::Ray(Vector const&, Vector const&)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.604339:   10101010 task-clock:ppp: 
+	    58fea88029e3 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1db (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.614440:   10101010 task-clock:ppp: 
+	    58fea880761e Vector::Vector(double, double, double)+0x36 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800aba Box::getLightIntersection(Ray, double*)+0x176 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.624541:   10101010 task-clock:ppp: 
+	    58fea88079ca Vector::operator+(Vector)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.634642:   10101010 task-clock:ppp: 
+	    58fea88051ac calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x964 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.644743:   10101010 task-clock:ppp: 
+	    58fea8807610 Vector::Vector(double, double, double)+0x28 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029c0 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1b8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.654845:   10101010 task-clock:ppp: 
+	    58fea8807a55 Vector::operator*(double)+0x19 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029c0 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1b8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.664945:   10101010 task-clock:ppp: 
+	    58fea8804950 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x108 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.675046:   10101010 task-clock:ppp: 
+	    58fea880094c Box::getLightIntersection(Ray, double*)+0x8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.685147:   10101010 task-clock:ppp: 
+	    58fea8807ecb Vector::dot(Vector)+0x49 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880391a Plane::getIntersection(Ray)+0x48 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.695248:   10101010 task-clock:ppp: 
+	    58fea8807a17 Vector::operator+(Vector)+0x4d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800aba Box::getLightIntersection(Ray, double*)+0x176 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.705349:   10101010 task-clock:ppp: 
+	    58fea8805218 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x9d0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.715450:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.725551:   10101010 task-clock:ppp: 
+	    58fea88006ac Box::getIntersection(Ray)+0x3c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.735653:   10101010 task-clock:ppp: 
+	    58fea8803970 Plane::getIntersection(Ray)+0x9e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.745753:   10101010 task-clock:ppp: 
+	    58fea8807a1b Vector::operator+(Vector)+0x51 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.755855:   10101010 task-clock:ppp: 
+	    58fea88075f0 Vector::Vector(double, double, double)+0x8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.765957:   10101010 task-clock:ppp: 
+	    58fea8800a33 Box::getLightIntersection(Ray, double*)+0xef (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.776057:   10101010 task-clock:ppp: 
+	    58fea8808264 Ray::Ray(Vector const&, Vector const&)+0x26 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a19 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x211 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.786158:   10101010 task-clock:ppp: 
+	    7e45dbaad6af malloc+0x5f (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.796259:   10101010 task-clock:ppp: 
+	    58fea8807eb5 Vector::dot(Vector)+0x33 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88009b0 Box::getLightIntersection(Ray, double*)+0x6c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.806361:   10101010 task-clock:ppp: 
+	    58fea880495d calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x115 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.816462:   10101010 task-clock:ppp: 
+	    58fea8804950 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x108 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.826563:   10101010 task-clock:ppp: 
+	    58fea8807fdb solveScalers(Vector, Vector, Vector, Vector)+0x97 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.836664:   10101010 task-clock:ppp: 
+	    58fea8808150 solveScalers(Vector, Vector, Vector, Vector)+0x20c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.846765:   10101010 task-clock:ppp: 
+	    58fea8808109 solveScalers(Vector, Vector, Vector, Vector)+0x1c5 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8801bab Disk::getIntersection(Ray)+0x1ff (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.856866:   10101010 task-clock:ppp: 
+	    58fea880496d calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x125 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.866967:   10101010 task-clock:ppp: 
+	    58fea8807fd3 solveScalers(Vector, Vector, Vector, Vector)+0x8f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.877068:   10101010 task-clock:ppp: 
+	    58fea8807aa0 Vector::operator*(double)+0x64 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029c0 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1b8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.887169:   10101010 task-clock:ppp: 
+	    58fea880495d calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x115 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.897270:   10101010 task-clock:ppp: 
+	    7e45dbaab376 _int_free+0x206 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    7e45dbaaddae cfree@GLIBC_2.2.5+0x7e (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.907371:   10101010 task-clock:ppp: 
+	    58fea880497e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x136 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.917472:   10101010 task-clock:ppp: 
+	    58fea8805b8e Sphere::getIntersection(Ray)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.927574:   10101010 task-clock:ppp: 
+	    58fea88007ec Box::getIntersection(Ray)+0x17c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.937675:   10101010 task-clock:ppp: 
+	    58fea8807a94 Vector::operator*(double)+0x58 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800a88 Box::getLightIntersection(Ray, double*)+0x144 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.947776:   10101010 task-clock:ppp: 
+	    7e45dbaad79d malloc+0x14d (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.957877:   10101010 task-clock:ppp: 
+	    58fea880497b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x133 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.967977:   10101010 task-clock:ppp: 
+	    58fea8804950 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x108 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.978078:   10101010 task-clock:ppp: 
+	    58fea8800ac2 Box::getLightIntersection(Ray, double*)+0x17e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.988180:   10101010 task-clock:ppp: 
+	    58fea8808020 solveScalers(Vector, Vector, Vector, Vector)+0xdc (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3758.998291:   10101010 task-clock:ppp: 
+	    58fea8807614 Vector::Vector(double, double, double)+0x2c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807f3e Vector::normalize()+0x70 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8805177 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x92f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.008392:   10101010 task-clock:ppp: 
+	    58fea8807622 Vector::Vector(double, double, double)+0x3a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800739 Box::getIntersection(Ray)+0xc9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.018493:   10101010 task-clock:ppp: 
+	    58fea8804985 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x13d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.028595:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.038695:   10101010 task-clock:ppp: 
+	    58fea88075ec Vector::Vector(double, double, double)+0x4 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800776 Box::getIntersection(Ray)+0x106 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.048796:   10101010 task-clock:ppp: 
+	    58fea8804981 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x139 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.058898:   10101010 task-clock:ppp: 
+	    7e45dbaad7cd malloc+0x17d (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.068999:   10101010 task-clock:ppp: 
+	    58fea880825d Ray::Ray(Vector const&, Vector const&)+0x1f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a19 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x211 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.079100:   10101010 task-clock:ppp: 
+	    58fea8805432 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xbea (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.089201:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8801bab Disk::getIntersection(Ray)+0x1ff (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.099302:   10101010 task-clock:ppp: 
+	    58fea88081b0 solveScalers(Vector, Vector, Vector, Vector)+0x26c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.109403:   10101010 task-clock:ppp: 
+	    58fea8802a28 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x220 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.119504:   10101010 task-clock:ppp: 
+	    58fea8802876 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x6e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.129605:   10101010 task-clock:ppp: 
+	    58fea88049ab calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x163 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.139706:   10101010 task-clock:ppp: 
+	    58fea8807e87 Vector::dot(Vector)+0x5 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.149808:   10101010 task-clock:ppp: 
+	    58fea8804985 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x13d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.159909:   10101010 task-clock:ppp: 
+	    58fea8804981 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x139 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.170009:   10101010 task-clock:ppp: 
+	    58fea88079e7 Vector::operator+(Vector)+0x1d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.180111:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.190221:   10101010 task-clock:ppp: 
+	    58fea88009a7 Box::getLightIntersection(Ray, double*)+0x63 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.200323:   10101010 task-clock:ppp: 
+	    58fea8808020 solveScalers(Vector, Vector, Vector, Vector)+0xdc (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.210424:   10101010 task-clock:ppp: 
+	    58fea8802a0e getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x206 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.220525:   10101010 task-clock:ppp: 
+	    58fea880494c calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x104 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.230626:   10101010 task-clock:ppp: 
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.240727:   10101010 task-clock:ppp: 
+	    58fea8800766 Box::getIntersection(Ray)+0xf6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.250828:   10101010 task-clock:ppp: 
+	    58fea88038f5 Plane::getIntersection(Ray)+0x23 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.260929:   10101010 task-clock:ppp: 
+	    58fea8803a9f Plane::getLightIntersection(Ray, double*)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.271030:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.281131:   10101010 task-clock:ppp: 
+	    58fea88075f4 Vector::Vector(double, double, double)+0xc (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8808238 solveScalers(Vector, Vector, Vector, Vector)+0x2f4 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.291232:   10101010 task-clock:ppp: 
+	    58fea8807a81 Vector::operator*(double)+0x45 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029c0 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1b8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.301333:   10101010 task-clock:ppp: 
+	    58fea8803923 Plane::getIntersection(Ray)+0x51 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8801a17 Disk::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.311435:   10101010 task-clock:ppp: 
+	    58fea8807e9b Vector::dot(Vector)+0x19 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880391a Plane::getIntersection(Ray)+0x48 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.321544:   10101010 task-clock:ppp: 
+	    58fea880497e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x136 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.331646:   10101010 task-clock:ppp: 
+	    7e45dbaad693 malloc+0x43 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.341747:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.351848:   10101010 task-clock:ppp: 
+	    58fea880762e Vector::Vector(double, double, double)+0x46 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800aba Box::getLightIntersection(Ray, double*)+0x176 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.361949:   10101010 task-clock:ppp: 
+	    58fea88048bf calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x77 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.372050:   10101010 task-clock:ppp: 
+	    58fea880762e Vector::Vector(double, double, double)+0x46 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800afa Box::getLightIntersection(Ray, double*)+0x1b6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.382151:   10101010 task-clock:ppp: 
+	    58fea88079ca Vector::operator+(Vector)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.392252:   10101010 task-clock:ppp: 
+	    58fea8807ea3 Vector::dot(Vector)+0x21 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88009b0 Box::getLightIntersection(Ray, double*)+0x6c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.402353:   10101010 task-clock:ppp: 
+	    58fea8800e1c Box::getLightIntersection(Ray, double*)+0x4d8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.412454:   10101010 task-clock:ppp: 
+	    7e45dbaab2a7 _int_free+0x137 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.422556:   10101010 task-clock:ppp: 
+	    58fea880498c calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x144 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.432657:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.442758:   10101010 task-clock:ppp: 
+	    58fea8804816 insertionSort(TimeAndShape*, int)+0xdc (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.452859:   10101010 task-clock:ppp: 
+	    58fea8807eb5 Vector::dot(Vector)+0x33 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88009b0 Box::getLightIntersection(Ray, double*)+0x6c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.462960:   10101010 task-clock:ppp: 
+	    58fea8807fc0 solveScalers(Vector, Vector, Vector, Vector)+0x7c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.473061:   10101010 task-clock:ppp: 
+	    7e45dbaab2a7 _int_free+0x137 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.483162:   10101010 task-clock:ppp: 
+	    7e45dbaad65c malloc+0xc (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.493263:   10101010 task-clock:ppp: 
+	    58fea88048c2 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x7a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.503364:   10101010 task-clock:ppp: 
+	    58fea8807a3a Vector::operator+(Vector)+0x70 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.513465:   10101010 task-clock:ppp: 
+	    58fea880494c calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x104 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.523566:   10101010 task-clock:ppp: 
+	    58fea88008f8 Box::getIntersection(Ray)+0x288 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.533667:   10101010 task-clock:ppp: 
+	    58fea8804992 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.543769:   10101010 task-clock:ppp: 
+	    58fea88081dc solveScalers(Vector, Vector, Vector, Vector)+0x298 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.553869:   10101010 task-clock:ppp: 
+	    58fea88079e2 Vector::operator+(Vector)+0x18 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.563971:   10101010 task-clock:ppp: 
+	    58fea88049a4 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x15c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.574072:   10101010 task-clock:ppp: 
+	    58fea8800750 Box::getIntersection(Ray)+0xe0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.584173:   10101010 task-clock:ppp: 
+	    58fea8803ffe Plane::getNormal(Vector)+0x14 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804d49 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x501 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.594274:   10101010 task-clock:ppp: 
+	    7e45dbaab1a4 _int_free+0x34 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    7e45dbaaddae cfree@GLIBC_2.2.5+0x7e (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea88049de calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x196 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.604376:   10101010 task-clock:ppp: 
+	    7e45dbaad664 malloc+0x14 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+	    58fea8804931 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.614476:   10101010 task-clock:ppp: 
+	    58fea8803a6e Plane::getLightIntersection(Ray, double*)+0xb8 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.624577:   10101010 task-clock:ppp: 
+	    58fea88081f7 solveScalers(Vector, Vector, Vector, Vector)+0x2b3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.634679:   10101010 task-clock:ppp: 
+	    58fea8803a9f Plane::getLightIntersection(Ray, double*)+0xe9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.644779:   10101010 task-clock:ppp: 
+	    58fea8808067 solveScalers(Vector, Vector, Vector, Vector)+0x123 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.654881:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.664981:   10101010 task-clock:ppp: 
+	    58fea880081a Box::getIntersection(Ray)+0x1aa (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.675082:   10101010 task-clock:ppp: 
+	    58fea880820a solveScalers(Vector, Vector, Vector, Vector)+0x2c6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.685184:   10101010 task-clock:ppp: 
+	    58fea8807dce Vector::mag2()+0xc (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8805669 Sphere::getLightIntersection(Ray, double*)+0x105 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.695285:   10101010 task-clock:ppp: 
+	    58fea88049bc calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x174 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.705386:   10101010 task-clock:ppp: 
+	    58fea880497b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x133 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.715487:   10101010 task-clock:ppp: 
+	    58fea8807fb8 solveScalers(Vector, Vector, Vector, Vector)+0x74 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800bb2 Box::getLightIntersection(Ray, double*)+0x26e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.725588:   10101010 task-clock:ppp: 
+	    58fea88039a5 Plane::getIntersection(Ray)+0xd3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.735689:   10101010 task-clock:ppp: 
+	    58fea8807622 Vector::Vector(double, double, double)+0x3a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800aba Box::getLightIntersection(Ray, double*)+0x176 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.745790:   10101010 task-clock:ppp: 
+	    58fea88029b5 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1ad (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.755891:   10101010 task-clock:ppp: 
+	    58fea8803aad Plane::getLightIntersection(Ray, double*)+0xf7 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.765992:   10101010 task-clock:ppp: 
+	    58fea8804994 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.776093:   10101010 task-clock:ppp: 
+	    58fea8807ecb Vector::dot(Vector)+0x49 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88009f8 Box::getLightIntersection(Ray, double*)+0xb4 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.786195:   10101010 task-clock:ppp: 
+	    58fea8800992 Box::getLightIntersection(Ray, double*)+0x4e (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.796296:   10101010 task-clock:ppp: 
+	    58fea8807622 Vector::Vector(double, double, double)+0x3a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.806397:   10101010 task-clock:ppp: 
+	    58fea88080d3 solveScalers(Vector, Vector, Vector, Vector)+0x18f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.816498:   10101010 task-clock:ppp: 
+	    58fea8804981 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x139 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.826599:   10101010 task-clock:ppp: 
+	    58fea880481d insertionSort(TimeAndShape*, int)+0xe3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804a2e calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x1e6 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.836709:   10101010 task-clock:ppp: 
+	    58fea88038f5 Plane::getIntersection(Ray)+0x23 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88006db Box::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.846811:   10101010 task-clock:ppp: 
+	    58fea8808230 solveScalers(Vector, Vector, Vector, Vector)+0x2ec (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.856912:   10101010 task-clock:ppp: 
+	    58fea8805bf6 Sphere::getIntersection(Ray)+0x12a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.867012:   10101010 task-clock:ppp: 
+	    58fea880398b Plane::getIntersection(Ray)+0xb9 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.877113:   10101010 task-clock:ppp: 
+	    58fea8804992 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.887215:   10101010 task-clock:ppp: 
+	    58fea88049b5 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x16d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.897316:   10101010 task-clock:ppp: 
+	    58fea8800abe Box::getLightIntersection(Ray, double*)+0x17a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.907418:   10101010 task-clock:ppp: 
+	    58fea88006cb Box::getIntersection(Ray)+0x5b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.917518:   10101010 task-clock:ppp: 
+	    58fea8804994 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x14c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.927619:   10101010 task-clock:ppp: 
+	    58fea88048c2 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x7a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.937720:   10101010 task-clock:ppp: 
+	    58fea88075e8 Vector::Vector(double, double, double)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea88029f8 getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x1f0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.947821:   10101010 task-clock:ppp: 
+	    58fea8807607 Vector::Vector(double, double, double)+0x1f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800a88 Box::getLightIntersection(Ray, double*)+0x144 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.957922:   10101010 task-clock:ppp: 
+	    58fea8805b9c Sphere::getIntersection(Ray)+0xd0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.968023:   10101010 task-clock:ppp: 
+	    58fea8808075 solveScalers(Vector, Vector, Vector, Vector)+0x131 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880082e Box::getIntersection(Ray)+0x1be (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.978125:   10101010 task-clock:ppp: 
+	    58fea880071d Box::getIntersection(Ray)+0xad (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.988226:   10101010 task-clock:ppp: 
+	    58fea8807622 Vector::Vector(double, double, double)+0x3a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a9c Vector::operator*(double)+0x60 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880070a Box::getIntersection(Ray)+0x9a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3759.998327:   10101010 task-clock:ppp: 
+	    58fea88079ca Vector::operator+(Vector)+0x0 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3760.008428:   10101010 task-clock:ppp: 
+	    58fea8803990 Plane::getIntersection(Ray)+0xbe (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8801a17 Disk::getIntersection(Ray)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3760.018529:   10101010 task-clock:ppp: 
+	    58fea8807f49 solveScalers(Vector, Vector, Vector, Vector)+0x5 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3760.028630:   10101010 task-clock:ppp: 
+	    58fea8807622 Vector::Vector(double, double, double)+0x3a (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8807a35 Vector::operator+(Vector)+0x6b (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8800aba Box::getLightIntersection(Ray, double*)+0x176 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8802a5c getLight(double*, Autonoma*, Vector, Vector, unsigned char)+0x254 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8804dad calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x565 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3760.038731:   10101010 task-clock:ppp: 
+	    58fea88048b5 calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0x6d (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880531b calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xad3 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
+main.exe   18112  3760.048832:   10101010 task-clock:ppp: 
+	    58fea8807ebe Vector::dot(Vector)+0x3c (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea8805b6e Sphere::getIntersection(Ray)+0xa2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea880490a calcColor(unsigned char*, Autonoma*, Ray, unsigned int)+0xc2 (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	    58fea87fe43f refresh(Autonoma*)+0x19f (/home/gis3/cs598ape/598APE-HW1/main.exe)
+	               0 [unknown] ([unknown])
+
