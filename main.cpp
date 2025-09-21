@@ -443,7 +443,6 @@ void setFrame(const char* animateFile, Autonoma* MAIN_DATA, int frame, int frame
 }
 
 int main(int argc, const char** argv){
-
    int frameLen = 1;
    const char* inFile = NULL;
    const char* animateFile = NULL;
