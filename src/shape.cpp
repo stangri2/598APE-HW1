@@ -1,5 +1,6 @@
 #include "shape.h"
 #include <algorithm>
+#include <iostream>
 
 Shape::Shape(const Vector &c, Texture* t, double ya, double pi, double ro): center(c), texture(t), yaw(ya), pitch(pi), roll(ro){
 };
@@ -39,20 +40,17 @@ typedef struct {
 
 void calcColor(unsigned char* toFill,Autonoma* c, Ray ray, unsigned int depth){
    ShapeNode* t = c->listStart;
-   size_t seen = 0;
-   TimeAndShape minTimeAndShape = {inf, NULL};
+   TimeAndShape minTimeAndShape = {inf, nullptr};
 
-   while(t!=NULL){
+   while(t!=nullptr){
       double time = t->data->getIntersection(ray);
-      if (time < minTimeAndShape.time) {
-         minTimeAndShape = (TimeAndShape){ time, t->data };
+      if (time >= 0 && std::isfinite(time) && time < minTimeAndShape.time) {
+         minTimeAndShape = { time, t->data };
       }
-      
-      seen ++;
       t = t->next;
    }
-   
-   if (seen == 0 || minTimeAndShape.time == inf) {
+
+   if (minTimeAndShape.shape == nullptr) {
       double opacity, reflection, ambient;
       Vector temp = ray.vector.normalize();
       const double x = temp.x;
