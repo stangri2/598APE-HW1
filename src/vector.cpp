@@ -85,18 +85,11 @@ Vector Vector::normalize(){
 }
 
 Vector solveScalers(Vector v1, Vector v2, Vector v3, Vector C){
-   double x1 = v1.x, y1 = v1.y, z1 = v1.z;
-   double x2 = v2.x, y2 = v2.y, z2 = v2.z;
-   double x3 = v3.x, y3 = v3.y, z3 = v3.z;
-
-   double denom = x1*(y2*z3 - z2*y3) - y1*(x2*z3 - z2*x3) + z1*(x2*y3 - y2*x3);
-
-   double a = C.z*v2.y*v3.x-C.y*v2.z*v3.x-C.z*v2.x*v3.y+C.x*v2.z*v3.y+C.y*v2.x*v3.z-C.x*v2.y*v3.z;
-   double b = -C.z*v1.y*v3.x+C.y*v1.z*v3.x+C.z*v1.x*v3.y-C.x*v1.z*v3.y-C.y*v1.x*v3.z+C.x*v1.y*v3.z;
-   double c = C.z*v1.y*v2.x-C.y*v1.z*v2.x-C.z*v1.x*v2.y+C.x*v1.z*v2.y+C.y*v1.x*v2.z-C.x*v1.y*v2.z;
-
-   Vector res = Vector(a/denom, b/denom, c/denom);
-   return res;
+  double denom = v1.dot(v3.cross(v2));
+  double a = C.dot(v3.cross(v2));
+  double b = C.dot(v1.cross(v3));
+  double c = C.dot(v2.cross(v1));
+  return Vector(a/denom, b/denom, c/denom);
 }
 
 Ray::Ray(const Vector& po, const Vector& ve): point(po), vector(ve){}
