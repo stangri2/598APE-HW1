@@ -1,4 +1,6 @@
 #include "triangle.h"
+#include "vector.h"
+#include <cassert>
 
 Triangle::Triangle(Vector c, Vector b, Vector a, Texture* t):Plane(Vector(0,0,0), t, 0., 0., 0., 0., 0.){
    center = c;
@@ -30,8 +32,11 @@ Triangle::Triangle(Vector c, Vector b, Vector a, Texture* t):Plane(Vector(0,0,0)
    up.x = -xsin*ysin*zcos+ycos*zsin;
    up.y = ycos*zcos+xsin*ysin*zsin;
    up.z = -xcos*ysin;
+   updateSolveScalersCache();
    Vector temp = vect.cross(right);
    Vector np = solveScalers(right, up, vect, a-c);
+   Vector np1 = solveScalersFast(cache, a-c); 
+   assert(np == np1);
    textureY = np.y;
    thirdX = np.x;
    
@@ -43,6 +48,8 @@ double Triangle::getIntersection(Ray ray){
    if(time==inf) 
       return time;
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*time-center); 
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*time-center); 
+   assert(dist == dist1);
    unsigned char tmp = (thirdX - dist.x) * textureY + (thirdX-textureX) * (dist.y - textureY) < 0.0;
    return((tmp!=(textureX * dist.y < 0.0)) || (tmp != (dist.x * textureY - thirdX * dist.y < 0.0)))?inf:time;
 }
@@ -53,7 +60,8 @@ bool Triangle::getLightIntersection(Ray ray, double* fill){
    const double r = -norm/t;
    if(r<=0. || r>=1.) return false;
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*r-center);
-   
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*r-center);
+   assert(dist == dist1);
    unsigned char tmp = (thirdX - dist.x) * textureY + (thirdX-textureX) * (dist.y - textureY) < 0.0;
    if ((tmp!=(textureX * dist.y < 0.0)) || (tmp != (dist.x * textureY - thirdX * dist.y < 0.0))) return false;
    

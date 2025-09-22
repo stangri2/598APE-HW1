@@ -1,4 +1,6 @@
 #include "disk.h"
+#include "vector.h"
+#include <cassert>
 Disk::Disk(const Vector &c, Texture* t, double ya, double pi, double ro, double tx, double ty):Plane(c, t, ya, pi, ro, tx, ty){}
 
 
@@ -7,6 +9,8 @@ double Disk::getIntersection(Ray ray){
    if(time==inf) 
       return time;
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*time-center);
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*time-center);
+   assert(dist == dist1);
    return (  dist.x*dist.x/(textureX*textureX)+dist.y*dist.y/(textureY*textureY)>1  )?inf:time;
 }
 
@@ -16,6 +20,8 @@ bool Disk::getLightIntersection(Ray ray, double* fill){
    const double r = -norm/t;
    if(r<=0. || r>=1.) return false;
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*r-center);
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*r-center);
+   assert(dist == dist1);
    if(  dist.x*dist.x/(textureX*textureX)+dist.y*dist.y/(textureY*textureY)>1  )return false;
    if(texture->opacity>1-1E-6) return true;   
    unsigned char temp[4];

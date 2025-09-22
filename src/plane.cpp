@@ -1,4 +1,6 @@
 #include "plane.h"
+#include "vector.h"
+#include <cassert>
 
 Plane::Plane(const Vector &c, Texture* t, double ya, double pi, double ro, double tx, double ty) : Shape(c, t, ya, pi, ro), vect(c), right(c), up(c){
    textureX = tx; textureY = ty;
@@ -25,6 +27,7 @@ void Plane::setAngles(double a, double b, double c){
    right.y = -xcos*zsin;
    right.z = -xsin;
    d = -vect.dot(center);
+   updateSolveScalersCache();
 }
 
 void Plane::setYaw(double a){
@@ -42,6 +45,7 @@ void Plane::setYaw(double a){
    right.y = -xcos*zsin;
    right.z = -xsin;
    d = -vect.dot(center);
+   updateSolveScalersCache();
 }
 
 void Plane::setPitch(double b){
@@ -55,6 +59,7 @@ void Plane::setPitch(double b){
    up.y = ycos*zcos+xsin*ysin*zsin;
    up.z = -xcos*ysin;
    d = -vect.dot(center);
+   updateSolveScalersCache();
 }
 
 void Plane::setRoll(double c){
@@ -71,6 +76,7 @@ void Plane::setRoll(double c){
    right.y = -xcos*zsin;
    //right.z = -xsin;
    d = -vect.dot(center);
+   updateSolveScalersCache();
 }
 
 double Plane::getIntersection(Ray ray){
@@ -88,6 +94,8 @@ bool Plane::getLightIntersection(Ray ray, double* fill){
 
    if(texture->opacity>1-1E-6) return true;   
    Vector dist = solveScalers(right, up, vect, ray.point-center);
+   Vector dist1 = solveScalersFast(cache,ray.point-center);
+   assert(dist == dist1);
    unsigned char temp[4];
    double amb, op, ref;
    texture->getColor(temp, &amb, &op, &ref,fix(dist.x/textureX-.5), fix(dist.y/textureY-.5));
@@ -103,6 +111,8 @@ void Plane::move(){
 }
 void Plane::getColor(unsigned char* toFill,double* am, double* op, double* ref, Autonoma* r, Ray ray, unsigned int depth){
    Vector dist = solveScalers(right, up, vect, ray.point-center);
+   Vector dist1 = solveScalersFast(cache,ray.point-center);
+   assert(dist == dist1);
    texture->getColor(toFill, am, op, ref, fix(dist.x/textureX-.5), fix(dist.y/textureY-.5));
 }
 unsigned char Plane::reversible(){ 
@@ -113,10 +123,20 @@ Vector Plane::getNormal(Vector point){
       return vect;
    else{
       Vector dist = solveScalers(right, up, vect, point-center);
+      Vector dist1 = solveScalersFast(cache,point-center);
+      assert(dist == dist1);
       double am, ref, op;
       unsigned char norm[3];
       normalMap->getColor(norm, &am, &op, &ref, fix(dist.x/mapX-.5+mapOffX), fix(dist.y/mapY-.5+mapOffY));
       Vector ret = ((norm[0]-128)*right+(norm[1]-128)*up+norm[2]*vect).normalize();
       return ret;
    }
+}
+
+void Plane::updateSolveScalersCache() {
+  //right, up, vect
+  cache.cross_v3v2 = vect.cross(up);
+  cache.cross_v1v3 = right.cross(vect);
+  cache.cross_v2v1 = up.cross(right);
+  cache.invDenom = 1.0 / (right.dot(cache.cross_v3v2));
 }

@@ -2,6 +2,7 @@
 #define __PLANE_H__
 
 #include "shape.h"
+#include "vector.h"
 
 class Plane : public Shape{
 public:
@@ -18,6 +19,9 @@ public:
   void setYaw(double d);
   void setPitch(double d);
   void setRoll(double d);
+  void updateSolveScalersCache();
+protected:
+  SolveScalersCache cache;
 };
 
 #endif

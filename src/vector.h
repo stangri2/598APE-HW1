@@ -11,8 +11,11 @@
 class Vector{
 public:
   double x, y, z;
+  Vector();
   Vector(double a, double b, double c);
   
+  bool operator == (const Vector) const;
+  bool operator != (const Vector) const;
   
   void operator +=(const Vector);
   void operator -= (const Vector);
@@ -43,6 +46,13 @@ class Ray{
 public:
   Vector point, vector;
   Ray(const Vector& po, const Vector& ve);
+};
+
+struct SolveScalersCache {
+    Vector cross_v3v2;
+    Vector cross_v1v3;
+    Vector cross_v2v1;
+    double invDenom;
 };
 
   inline Vector operator-(const Vector b){
@@ -78,6 +88,8 @@ public:
   }
   
   Vector solveScalers(Vector v1, Vector v2, Vector v3, Vector C);
+
+  Vector solveScalersFast(const SolveScalersCache& cache, Vector C);
 
 int print_vector(FILE *stream, const struct printf_info *info, const void 
 *const *args);

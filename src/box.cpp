@@ -1,4 +1,6 @@
 #include "box.h"
+#include "vector.h"
+#include <cassert>
 
 Box::Box(const Vector &c, Texture* t, double ya, double pi, double ro, double tx, double ty):Plane(c, t, ya, pi, ro, tx, ty){}
 Box::Box(const Vector &c, Texture* t, double ya, double pi, double ro, double tx):Plane(c, t, ya, pi, ro, tx,tx){}
@@ -6,6 +8,8 @@ Box::Box(const Vector &c, Texture* t, double ya, double pi, double ro, double tx
 double Box::getIntersection(Ray ray){
    double time = Plane::getIntersection(ray);
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*time-center);
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*time-center);
+   assert(dist == dist1);
    if(time==inf) 
       return time;
    return ( ((dist.x>=0)?dist.x:-dist.x)>textureX/2 || ((dist.y>=0)?dist.y:-dist.y)>textureY/2 )?inf:time;
@@ -17,6 +21,8 @@ bool Box::getLightIntersection(Ray ray, double* fill){
    const double r = -norm/t;
    if(r<=0. || r>=1.) return false;
    Vector dist = solveScalers(right, up, vect, ray.point+ray.vector*r-center);
+   Vector dist1 = solveScalersFast(cache, ray.point+ray.vector*r-center);
+   assert(dist == dist1);
    if( ((dist.x>=0)?dist.x:-dist.x)>textureX/2 || ((dist.y>=0)?dist.y:-dist.y)>textureY/2 ) return false;
 
    if(texture->opacity>1-1E-6) return true;   
