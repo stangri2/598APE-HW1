@@ -143,8 +143,8 @@ You can then use the Docker container to build and run your code. If you run `./
 ## Building the repo
 The `main` branch contains our final optimizations. To run the project, in your VM run the following commands:
 ```bash
-cd docker && docker build -t <myusername>/598ape
-docker run -it -v $(pwd):/app <myusername>/598ape /bin/bash
+cd docker && sudo docker build -t <myusername>/598ape .
+cd .. && sudo docker run -it -v $(pwd):/app <myusername>/598ape /bin/bash
 cd /app && make
 ```
 
