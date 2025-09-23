@@ -93,9 +93,7 @@ bool Plane::getLightIntersection(Ray ray, double* fill){
    if(r<=0. || r>=1.) return false;
 
    if(texture->opacity>1-1E-6) return true;   
-   Vector dist = solveScalers(right, up, vect, ray.point-center);
-   Vector dist1 = solveScalersFast(cache,ray.point-center);
-   assert(dist == dist1);
+   Vector dist = solveScalersFast(cache,ray.point-center);
    unsigned char temp[4];
    double amb, op, ref;
    texture->getColor(temp, &amb, &op, &ref,fix(dist.x/textureX-.5), fix(dist.y/textureY-.5));
@@ -110,9 +108,7 @@ void Plane::move(){
    d = -vect.dot(center);
 }
 void Plane::getColor(unsigned char* toFill,double* am, double* op, double* ref, Autonoma* r, Ray ray, unsigned int depth){
-   Vector dist = solveScalers(right, up, vect, ray.point-center);
-   Vector dist1 = solveScalersFast(cache,ray.point-center);
-   assert(dist == dist1);
+   Vector dist = solveScalersFast(cache,ray.point-center);
    texture->getColor(toFill, am, op, ref, fix(dist.x/textureX-.5), fix(dist.y/textureY-.5));
 }
 unsigned char Plane::reversible(){ 
@@ -122,9 +118,7 @@ Vector Plane::getNormal(Vector point){
    if(normalMap==NULL)
       return vect;
    else{
-      Vector dist = solveScalers(right, up, vect, point-center);
-      Vector dist1 = solveScalersFast(cache,point-center);
-      assert(dist == dist1);
+      Vector dist = solveScalersFast(cache,point-center);
       double am, ref, op;
       unsigned char norm[3];
       normalMap->getColor(norm, &am, &op, &ref, fix(dist.x/mapX-.5+mapOffX), fix(dist.y/mapY-.5+mapOffY));
