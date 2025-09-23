@@ -139,3 +139,14 @@ For ease of use and installation, we provide a docker image capable of running a
 You can build this yourself manually by running `cd docker && docker build -t <myusername>/598ape`. Alternatively we have pushed a pre-built version to `wsmoses/598ape` on Dockerhub.
 
 You can then use the Docker container to build and run your code. If you run `./dockerrun.sh` you will enter an interactive bash session with all the packages from docker installed (that script by default uses `wsmoses/598ape`, feel free to replace it with whatever location you like if you built from scratch). The current directory (aka this folder) is mounted within `/host`. Any files you create on your personal machine will be available there, and anything you make in the container in that folder will be available on your personal machine.
+
+## Building the repo
+The `main` branch contains our final optimizations. To run the project:
+```bash
+cd docker && docker build -t <myusername>/598ape
+docker run -it -v $(pwd):/app <myusername>/598ape /bin/bash
+cd /app && make
+```
+
+Now you can build all images inside the container as described above, and use perf to inspect and verify the performance optimizations.
+
