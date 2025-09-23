@@ -138,5 +138,5 @@ void Plane::updateSolveScalersCache() {
   cache.cross_v3v2 = vect.cross(up);
   cache.cross_v1v3 = right.cross(vect);
   cache.cross_v2v1 = up.cross(right);
-  cache.invDenom = 1.0 / (right.dot(cache.cross_v3v2));
+  cache.denom = right.dot(cache.cross_v3v2);
 }

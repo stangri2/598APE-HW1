@@ -125,7 +125,7 @@ Vector solveScalersFast(const SolveScalersCache &cache, Vector C) {
   double a = C.dot(cache.cross_v3v2);
   double b = C.dot(cache.cross_v1v3);
   double c = C.dot(cache.cross_v2v1);
-  return Vector(a * cache.invDenom, b * cache.invDenom, c * cache.invDenom);
+  return Vector(a / cache.denom, b / cache.denom, c / cache.denom);
 }
 
 Ray::Ray(const Vector &po, const Vector &ve) : point(po), vector(ve) {}

@@ -52,7 +52,7 @@ struct SolveScalersCache {
     Vector cross_v3v2;
     Vector cross_v1v3;
     Vector cross_v2v1;
-    double invDenom;
+    double denom;
 };
 
   inline Vector operator-(const Vector b){
